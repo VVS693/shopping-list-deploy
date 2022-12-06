@@ -14,7 +14,7 @@ export function CheckBox({ isCompleted, onChangeCheckBox }: CheckboxProps) {
         setCompleted(!completed);
         onChangeCheckBox();
       }}
-      className="select-none py-3"
+      className="select-none"
     >
       {!completed ? (
         <svg

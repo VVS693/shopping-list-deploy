@@ -51,7 +51,7 @@ export function AddItem({ onAdd }: AddItemProps) {
           }}
         ></button>
       ) : (
-        <div className="flex w-full px-4">
+        <div className="flex w-full px-4 items-center">
           <CheckBox isCompleted={false} onChangeCheckBox={() => {}} />
           <div className="fixed top-0 right-0 left-0 bottom-0" />
 
